@@ -69,11 +69,11 @@ var DeviceFingerprint = function(type, device, fingerprint) {
   lan.utils.merge(this, fingerprint);
   lan.utils.merge(this, device);
 
-  /*
-   * Starts the Fingerprint request
-   * @param [String] base the https:// or http:// base URL
-   * @param [Function(statusBoolean)] callback
-   */
+  // /*
+  //  * Starts the Fingerprint request
+  //  * @param [String] base the https:// or http:// base URL
+  //  * @param [Function(statusBoolean)] callback
+  //  */
   this.check = function(opts, callback) {
     var Probe = this.constructor.PROBES[type];
     if (!Probe) {
