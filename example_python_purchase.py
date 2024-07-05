@@ -117,6 +117,7 @@ browserInfo = 'my browser information'
 swagger_types = {
         "browser_info": "BrowserInfo",
         "device": "Device",   
+        "email":"str",
         "id": "str",
         "identity": "str",
         "ip": "str",
