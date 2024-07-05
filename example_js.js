@@ -23,6 +23,12 @@ customer() {
 		this.apply_pricing_rule();
 	}
 
+
+
+
+
+
+
 const { Sequelize, DataTypes } = require('sequelize');
 const db = require('../utils/database');
 const Customer = require('./customerModel');
